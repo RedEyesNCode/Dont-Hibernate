@@ -1,4 +1,4 @@
-package com.leadexperience.leadexperince.models;
+package com.redeyesncode.write.models;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -23,16 +23,14 @@ import java.time.LocalDateTime;
 public class UserDataModel {
 
     @Id
-    @SequenceGenerator(name = "lead_user_sequence", sequenceName = "lead_user_sequence",allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "lead_user_sequence")
+    @SequenceGenerator(name = "write_user_sequence", sequenceName = "write_user_sequence",allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "write_user_sequence")
     private Long id;
 
     private String userEmail;
     private String number;
     private String password;
     private String userName;
-
-    private String profileUrl = "NO_URL";
 
 
     private String fcmToken = "";

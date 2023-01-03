@@ -1,4 +1,4 @@
-package com.leadexperience.leadexperince.models;
+package com.redeyesncode.write.models;
 
 public class StatusCodeModel {
     private String status;

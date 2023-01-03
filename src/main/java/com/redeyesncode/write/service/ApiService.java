@@ -1,9 +1,9 @@
-package com.leadexperience.leadexperince.service;
+package com.redeyesncode.write.service;
 
 
-import com.leadexperience.leadexperince.models.StatusCodeModel;
-import com.leadexperience.leadexperince.models.UserDataModel;
-import com.leadexperience.leadexperince.respository.UserDataRepository;
+import com.redeyesncode.write.models.StatusCodeModel;
+import com.redeyesncode.write.models.UserDataModel;
+import com.redeyesncode.write.respository.UserDataRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;

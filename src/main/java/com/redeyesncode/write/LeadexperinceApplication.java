@@ -1,4 +1,4 @@
-package com.leadexperience.leadexperince;
+package com.redeyesncode.write;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

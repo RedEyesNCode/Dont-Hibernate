@@ -1,4 +1,4 @@
-package com.leadexperience.leadexperince.models;
+package com.redeyesncode.write.models;
 
 
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter
 public class LoginRequestBody {
 
-    private String username;
+    private String userEmail;
 
     private String password;
 

@@ -1,7 +1,7 @@
-package com.leadexperience.leadexperince.respository;
+package com.redeyesncode.write.respository;
 
 
-import com.leadexperience.leadexperince.models.UserDataModel;
+import com.redeyesncode.write.models.UserDataModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

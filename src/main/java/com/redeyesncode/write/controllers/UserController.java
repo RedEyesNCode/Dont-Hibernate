@@ -1,21 +1,12 @@
-package com.leadexperience.leadexperince.controllers;
+package com.redeyesncode.write.controllers;
 
 
-import com.leadexperience.leadexperince.models.LoginRequestBody;
-import com.leadexperience.leadexperince.models.StatusCodeModel;
-import com.leadexperience.leadexperince.models.UserDataModel;
-import com.leadexperience.leadexperince.security.AuthenticationRequest;
-import com.leadexperience.leadexperince.security.AuthenticationResponse;
-import com.leadexperience.leadexperince.security.MyUserDetails;
-import com.leadexperience.leadexperince.service.ApiService;
-import com.leadexperience.leadexperince.utils.JWTUtil;
+import com.redeyesncode.write.models.LoginRequestBody;
+import com.redeyesncode.write.models.UserDataModel;
+import com.redeyesncode.write.service.ApiService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -25,19 +16,13 @@ public class UserController {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    @Autowired
-    private MyUserDetails userDetailsService;
+
 
     @Autowired
     private ApiService apiService;
 
-    @Autowired
-    private JWTUtil jwtUtil;
 
-    @GetMapping("/hello")
-    public ResponseEntity<String> getHello(){
-        return ResponseEntity.ok("Hello");
-    }
+
 
 //    @CrossOrigin
 //    @RequestMapping(value = "/authJWT", method = RequestMethod.POST)
